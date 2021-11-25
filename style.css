@@ -1,0 +1,49 @@
+body {
+    position: relative;
+    background-image: url("https://user-images.githubusercontent.com/94186996/142200775-e8c3a951-b6ea-4d8a-a266-2df5975f89b8.jpeg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+}
+
+/*푸터*/
+footer {
+    position:static;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+footer .inner {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+footer ul {
+    position: relative;
+    left: 50%;
+    margin-left: -95px;
+}
+
+footer ul li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+footer ul li:last-child {
+    margin-right: 0px;
+}
+
+footer li img {
+    width: 100%;
+    height: 100%;
+}
+
+footer li img:hover {
+    opacity: 0.9;
+}
